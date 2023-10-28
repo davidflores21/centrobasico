@@ -1,0 +1,84 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #0078d4;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para el contenedor */
+.contenedor {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el formulario */
+form {
+    text-align: center;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input, select {
+    width: 85%;
+    padding: 10px;
+    margin-top: 2px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 0px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+/* Estilos para el botón de regreso */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #353a3f; /* Cambia este color al que desees */
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    border: none; /* Quita el borde del botón */
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Animación de cambio de color de fondo */
+}
+
+/* Estilos para el botón de regreso al pasar el cursor sobre él (efecto hover) */
+.btn:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+}
+
+button:hover {
+    background-color: #c0a51d;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #0e334f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+/* Establecer el color de fondo de toda la página */
+body {
+    background-color: #b0af9b; /* Cambia este valor al color que desees */
+}

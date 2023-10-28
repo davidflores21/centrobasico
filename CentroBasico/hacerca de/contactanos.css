@@ -1,0 +1,129 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px #0000001a;
+}
+
+/* Estilos para el formulario de contacto */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos específicos para secciones */
+.contact-info {
+    background-color: #b0af9b;
+}
+
+.location-map {
+    text-align: center;
+}
+
+.contact-form {
+    background-color: #b0af9b;
+}
+/* Estilo de la sección con la clase "contact-info" */
+.contact-info {
+    background-color: #333; /* Establece el color de fondo */
+    padding: 20px; /* Agrega un espacio interno para separación */
+    border: 1px solid #333; /* Agrega un borde con un color */
+  }
+  
+  /* Estilo del encabezado (<h2>) dentro de la sección */
+  .contact-info h2 {
+    font-size: 24px; /* Establece el tamaño de fuente */
+    color: #f7f3f3; /* Establece el color del texto */
+  }
+  
+  /* Estilo del párrafo (<p>) dentro de la sección */
+  .contact-info p {
+    font-size: 16px; /* Establece el tamaño de fuente */
+    color: #fef9f9; /* Establece el color del texto */
+  }
+  
+  /* Estilo de los elementos de lista (<li>) dentro de la sección */
+  .contact-info li {
+    font-size: 14px; /* Establece el tamaño de fuente */
+    color: #f8f5f5; /* Establece el color del texto */
+    margin-bottom: 8px; /* Agrega un espacio entre los elementos de la lista */
+  }
+  
+/* Estilo del enlace con la clase "btn" */
+a.btn {
+    display: inline-block; /* Hace que el enlace sea un bloque en línea */
+    padding: 10px 20px; /* Agrega relleno alrededor del enlace */
+    background-color: #0f1010; /* Establece el color de fondo */
+    color: #fff; /* Establece el color del texto */
+    text-decoration: none; /* Quita la decoración de subrayado predeterminada */
+    border-radius: 5px; /* Agrega esquinas redondeadas */
+    font-weight: bold; /* Hace que el texto sea negrita */
+    transition: background-color 0.3s; /* Agrega una transición al color de fondo */
+  }
+  
+  /* Cambiar el color de fondo al pasar el mouse sobre el enlace */
+  a.btn:hover {
+    background-color: #0056b3;
+  }
+  

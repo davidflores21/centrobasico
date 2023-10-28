@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menú de Navegación</title>
+    <link rel="stylesheet" href="./hacercade.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <style>
+        /* Estilos CSS personalizados pueden ir aquí */
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="./Quines somos.html">Quiénes somos</a></li>
+        <li><a href="./ubicasion.html">Ubicación</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+        <a href="/menu.html" class="btn">Regresar</a>
+    </ul>
+
+    <!-- Carrusel de imágenes -->
+    <div id="image-carousel">
+        <img src="imagen1.jpg" alt="Imagen 1">
+        <img src="imagen2.jpg" alt="Imagen 2">
+        <img src="imagen3.jpg" alt="Imagen 3">
+    </div>
+
+    <!-- Contenido de las secciones -->
+    <section id="quienes-somos">
+        <h1>Quiénes somos</h1>
+        <p>Breve historia de quienes somos.</p>
+    </section>
+
+    <script>
+        $(document).ready(function(){
+            $("#image-carousel").slick({
+                dots: true, // Muestra los puntos de navegación
+                autoplay: true, // Inicia la reproducción automática
+                autoplaySpeed: 3000, // Velocidad de la reproducción automática en milisegundos
+            });
+        });
+    </script>
+</body>
+</html>

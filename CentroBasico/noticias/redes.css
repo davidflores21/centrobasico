@@ -1,0 +1,77 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #0078d4; /* Color de fondo del encabezado */
+    color: #0e0e0e; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+/* Estilos para el botón "Regresar" */
+a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #85bbf2; 
+    color: #ef4343; 
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+a.btn:hover {
+    background-color: #b0af9b;; 
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #a5a0a0;
+    color: #0d0c0c; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+/* Estilos para el título "Síguenos en Redes Sociales" */
+h2 {
+    text-align: center; 
+    color: #121212; 
+    margin-top: 20px; 
+}
+
+/* Estilos para los íconos de redes sociales */
+ul.iconos-sociales {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el relleno de la lista */
+    text-align: center; /* Alineación de los íconos al centro */
+}
+
+ul.iconos-sociales li {
+    display: inline; /* Coloca los íconos en línea */
+    margin: 0 20px; /* Márgenes horizontales entre los íconos */
+}
+
+/* Estilos para el párrafo de descripción */
+p {
+    text-align: center; /* Alineación del texto al centro */
+    color: #555; /* Color del texto */
+    margin-top: 20px; /* Márgen superior para separar el párrafo de los íconos */
+}
+
+/* Estilos para las imágenes y comentarios */
+section figure {
+    text-align: center; /* Alineación del texto de los comentarios al centro */
+}
+
+section img {
+    max-width: 100%; /* Asegura que las imágenes no sean más anchas que su contenedor */
+}
+
+/* Estilos para los comentarios de las imágenes */
+figcaption {
+    font-style: italic; /* Estilo de fuente en cursiva para los comentarios */
+    color: #555; /* Color del texto de los comentarios */
+    margin-top: 10px; /* Márgenes superiores para separar los comentarios de las imágenes */
+}
+body {
+    background-color: #b0af9b; 
+}

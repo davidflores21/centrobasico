@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="archivo.css">
+    <link rel="stylesheet" href="text/css" href="archivo.PHP">
+    
+    <title>Archivos para Descargar y Subir</title>
+</head>
+
+<body>
+    <a href="./documentos.html" class="btn">Regresar</a>
+    <h1>Archivos para Descargar y Subir</h1>
+    <h2>Esta sección es para mantener actualizados los archivos tanto para el alumno o maestra</h2>
+
+    <h2>Descargar Archivos</h2>
+    <ul>
+        <li><a href="archivos/documento1.pdf" download>Documento 1 (PDF)</a></li>
+        <li><a href="archivos/documento2.docx" download>Documento 2 (Word)</a></li>
+        <li><a href="archivos/documento3.pptx" download>Documento 3 (PowerPoint)</a></li>
+        <li><a href="archivos/documento4.xlsx" download>Documento 4 (Excel)</a></li>
+    </ul>
+    
+    <h2>Subir Archivos</h2>
+    <form action="subir.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="archivo">
+        <input type="submit" value="Subir Archivo">
+    </form>
+
+    <footer>
+        <p>david © 2023 </p>
+    </footer>
+</body>
+
+</html>

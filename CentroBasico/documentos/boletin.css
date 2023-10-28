@@ -1,0 +1,132 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaa5a5;
+    margin: 0;
+    padding: 0;
+    background-color: #a45a5a;
+    text-align: center; /* Centra el contenido */
+}
+
+/* Estilo para el encabezado */
+h1 {
+text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 0; /* Elimina el margen superior para centrar */
+}
+
+/* Estilo para los títulos de sección */
+h2, h3 {
+    color: #333;
+    margin-top: 20px;
+    margin-top: 20px; /* Agrega espacio entre títulos */
+}
+
+/* Estilo para los párrafos */
+p {
+    margin: 10px;
+    margin: 20px 0; /* Agrega espacio arriba y abajo de los párrafos */
+}
+
+/* Estilo para las imágenes y videos */
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+    /*estilo para imagenes */
+    img {
+        display: block;
+        margin: 0 auto;
+
+    margin: 0 auto; /* Centra imágenes y videos */
+    max-width: 100%;
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}header {
+background-color: #333;
+    color:#fff;
+    padding: 20px;
+    text-align: center;
+}h1 {
+    margin: 0;
+    }
+/* estilo titulos */
+h2, h3 {
+    color: #333;
+    margin: 20px 0;
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilo para el encabezado */
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Estilo para los títulos de sección */
+h2, h3 {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Estilo para los párrafos de artículo */
+p {
+    margin: 20px 0;
+}
+
+/* Estilo para las imágenes y videos */
+iframe, img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave */
+}
+body {
+    background-color: #b0af9b; /* Cambia el código de color a tu preferencia */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* Estilos para el botón de regreso */
+.btn {
+    display: inline-block;
+    background-color: #101111; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px; /* Relleno (espacio dentro del botón) */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición de color al pasar el mouse */
+}
+
+.btn:hover {
+    background-color: #00559b; /* Cambia el color de fondo al pasar el mouse */
+}

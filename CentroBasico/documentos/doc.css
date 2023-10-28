@@ -1,0 +1,78 @@
+/* Estilo para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para el menú de navegación */
+nav ul {
+    list-style: none;
+    padding: 10;
+    display: flex;
+}
+
+nav li {
+    margin-right: 30px;
+}
+/* Cambiar el color de fondo de la página */
+body {
+    background-color: #b0af9b;; /* Puedes usar un código de color o un nombre de color */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilo para las secciones */
+section {
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid #ccc;
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+/* Estilos para el menú de navegación */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Estilo para las secciones con sombra */
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #0000001a; /* Agrega una sombra suave */
+}
+

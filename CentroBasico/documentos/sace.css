@@ -1,0 +1,106 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b0af9b;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #3a4146;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Estilos para la navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #2815d4;
+    text-decoration: none;
+}
+
+/* Estilos para el contenido principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+h2 {
+    color: #161717;
+}
+
+/* Estilos para la barra lateral */
+aside {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5e2e2
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #181b1c;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para el contenedor */
+.contenedor {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #b79c9c;
+    border: 1px solid #ccc;
+    text-align: center; /* Para centrar el contenido en el contenedor */
+}
+
+/* Estilo de fondo para un encabezado específico */
+
+
+
+/* Estilos para el botón de regreso */
+.btn-regresar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Estilos para el botón de regreso al pasar el cursor sobre él (efecto hover) */
+.btn-regresar:hover {
+    background-color: #0056b3;
+}
+
+/* Cambiar el fondo de un div a amarillo */
+div {
+    background-color: #676750;
+}
+
+/* Utilizar una imagen como fondo de un encabezado */
+header {
+    background-image: url('imagen-de-fondo.jpg');
+    background-size: cover;
+}

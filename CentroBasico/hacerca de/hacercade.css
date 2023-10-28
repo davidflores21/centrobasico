@@ -1,0 +1,58 @@
+/* Estilos para el menú de navegación */
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+}
+
+ul.menu li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+ul.menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para el carrusel de imágenes */
+#image-carousel {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#image-carousel img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+/* Estilos para el botón de regreso */
+.btn {
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #17181a; 
+    color: #fff; 
+    text-decoration: none;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+/* Estilo al pasar el mouse por encima del botón */
+.btn:hover {
+    background-color: #0056b3; /* Cambia el color de fondo cuando se pasa el mouse por encima */
+}
+body {
+    background-color: #b0af9b; 
+  }
+  .my-class {
+    background-color: #6496c8; 
+  }
+  

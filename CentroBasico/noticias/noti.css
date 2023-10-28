@@ -1,0 +1,73 @@
+/* Estilo de curpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b0af9b;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo de encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilo de notícias */
+.noticia {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+}
+
+.noticia h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.noticia p {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+a.button {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+a.button:hover {
+    background-color: #555;
+}

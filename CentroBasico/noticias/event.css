@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b0af9b; /* Color de fondo para todo el cuerpo */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para la sección de noticias */
+.noticia {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la sección de eventos */
+.eventos {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.eventos h2 {
+    color: #0077b5;
+}
+
+/* Estilos para la lista de eventos */
+.eventos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.eventos li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.eventos h3 {
+    color: #0077b5;
+}
+/* Establecer el color de fondo de toda la página */
+body {
+    background-color: #b0af9b; /* Cambia este valor al color que desees */
+}
+
+/* Alinear el contenido en el centro de la página */
+header, .noticia, .eventos {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Estilos para el botón de "Regresar" */
+a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0078d4; /* Cambia este color al que desees */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Estilos para el botón "Regresar" al pasar el cursor sobre él (efecto hover) */
+a.btn:hover {
+    background-color: #0056b3;
+}
+

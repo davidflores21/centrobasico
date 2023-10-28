@@ -1,0 +1,56 @@
+/* Estilo para el encabezado */
+header {
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para las secciones */
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #ccc; /* Borde con un grosor de 2px */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Agrega una sombra */
+}
+
+/* Estilo para las imágenes */
+img {
+    max-width: 100%; /* Asegura que las imágenes no se desborden del contenedor */
+    height: auto;
+    margin-top: 10px; /* Agrega un espacio superior a las imágenes */
+}
+
+/* Estilo para los títulos de sección */
+h2 {
+    color: #333;
+}
+
+/* Cambiar el color de fondo al pasar el mouse sobre el enlace */
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+    background-color: #e2d399; /* Puedes usar un código de color o un nombre de color */
+}
+  .my-class {
+    background-color: rgb(249, 250, 251); 
+  }
+  /* Estilo del enlace con la clase "btn" */
+a.btn {
+    display: inline-block; 
+    padding: 10px 20px; /* Agrega relleno alrededor del enlace */
+    background-color: #333; /* Establece el color de fondo */
+    color: #fff; /* Establece el color del texto */
+    text-decoration: none; 
+    border-radius: 5px; /* Agrega esquinas redondeadas */
+    font-weight: bold; /* Hace que el texto sea negrita */
+    transition: background-color 0.3s; /* Agrega una transición al color de fondo */
+  }
+  
+  a.btn:hover {
+    background-color: #0056b3;
+  }
+  
