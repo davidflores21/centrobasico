@@ -124,6 +124,7 @@
   right: 15px;
   font-size: 1.2rem;
   color: #0e2431;
+  width: 60%
 }
 
 .nav-container input[type="checkbox"]:checked ~ .menu-items {
