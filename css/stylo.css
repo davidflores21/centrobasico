@@ -73,6 +73,7 @@ header {
 /* Estilos para la sección de Misión y Visión */
 .nosotros_conteiner {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
